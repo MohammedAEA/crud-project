@@ -5,7 +5,7 @@ require_once ("class/Attendance.php");
 
 $db_handle = new DBController();
 
-// $action = "";
+$action = "";
 if (! empty($_GET["action"])) {
     $action = $_GET["action"];
 }
